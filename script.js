@@ -9,7 +9,7 @@ var id = chrome.contextMenus.create({
   "onclick" : onSgfClick,
   "targetUrlPatterns" : [
     "*://*/*.sgf",
-    "*://dragongoserver.net/sgf.php?gid=*"
+    "*://www.dragongoserver.net/sgf.php?gid=*"
   ]
 });
 
